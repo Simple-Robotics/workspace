@@ -1,0 +1,14 @@
+# pixi environments
+.pixi
+*.egg-info
+cmake
+eigenpy
+hpp-fcl
+coal
+pinocchio
+pycppad
+example-robot-data
+proxsuite
+proxsuite-nlp
+aligator
+LoIK
