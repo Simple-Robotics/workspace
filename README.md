@@ -1,17 +1,17 @@
 # Simple-Robotics Workspace
 
-This project aggregate scripts and files to work on multiple Simple-Robotics project at once.
+This project aggregates scripts and files to work on multiple Simple-Robotics projects at once.
 
 ## How to use it
 
-To setup a workspace you must do the following steps:
+To setup a workspace, follow these steps:
 
 1. Populate the workspace
 2. Configure CMakeLists.txt
 3. Configure pixi.toml
 4. Build the workspace
 
-Project inside a workspace are called **edited projects**.
+Projects inside a workspace are called **edited projects**.
 
 ### Populate the workspace
 
