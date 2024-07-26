@@ -17,14 +17,14 @@ Projects inside a workspace are called **edited projects**.
 
 Use the following commands to clone projects you want to **edit**.
 
-- eigenpy: `git clone git@github.com:stack-of-tasks/eigenpy.git --recursive -b topic/workspace`
-- hpp-fcl: `git clone git@github.com:humanoid-path-planner/hpp-fcl.git --recursive -b topic/workspace`
-- pinocchio: `git clone git@github.com:stack-of-tasks/pinocchio.git --recursive -b topic/workspace`
-- pycppad: `git clone git@github.com:Simple-Robotics/pycppad.git --recursive -b topic/workspace`
-- example-robot-data: `git clone git@github.com:Gepetto/example-robot-data.git --recursive -b topic/workspace`
-- proxsuite: `git clone git@github.com:Simple-Robotics/proxsuite.git --recursive -b topic/workspace`
-- proxsuite-nlp: `git clone git@github.com:Simple-Robotics/proxsuite-nlp.git --recursive -b topic/workspace`
-- aligator: `git clone git@github.com:Simple-Robotics/aligator --recursive --recursive -b topic/workspace`
+- eigenpy: `git clone git@github.com:stack-of-tasks/eigenpy.git --recursive -b devel`
+- hpp-fcl: `git clone git@github.com:lmontaut/hpp-fcl.git --recursive -b topic/coal`
+- pinocchio: `git clone git@github.com:stack-of-tasks/pinocchio.git --recursive -b devel`
+- pycppad: `git clone git@github.com:Simple-Robotics/pycppad.git --recursive -b devel`
+- example-robot-data: `git clone git@github.com:Gepetto/example-robot-data.git --recursive -b devel`
+- proxsuite: `git clone git@github.com:Simple-Robotics/proxsuite.git --recursive -b devel`
+- proxsuite-nlp: `git clone git@github.com:Simple-Robotics/proxsuite-nlp.git --recursive -b devel`
+- aligator: `git clone git@github.com:Simple-Robotics/aligator --recursive --recursive -b devel`
 
 ### Configure CMakeLists.txt
 
