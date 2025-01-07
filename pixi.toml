@@ -128,4 +128,4 @@ proxsuite-nlp-standalone = { features = [
 ] }
 aligator-standalone = { features = ["base", "aligator", "aligator-standalone"] }
 loik-standalone = { features = ["base", "loik", "loik-standalone"] }
-local = { features = ["base", "coal", "coal-standalone", "pinocchio"] }
+simple-minimal = { features = ["base", "coal", "coal-standalone", "pinocchio"] }
