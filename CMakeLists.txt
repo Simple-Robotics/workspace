@@ -12,11 +12,11 @@ macro(add_eigenpy)
        ${PROJECT_BINARY_DIR}/eigenpy/python)
   add_subdirectory(eigenpy)
 endmacro()
-macro(add_hpp_fcl)
-  list(APPEND PROJECT_PACKAGES_IN_WORKSPACE hpp-fcl)
+macro(add_coal)
+  list(APPEND PROJECT_PACKAGES_IN_WORKSPACE hpp-fcl coal)
   list(APPEND PROJECT_PYTHON_PACKAGES_IN_WORKSPACE
-       ${PROJECT_BINARY_DIR}/hpp-fcl/python)
-  add_subdirectory(hpp-fcl)
+       ${PROJECT_BINARY_DIR}/hpp-fcl/python ${PROJECT_BINARY_DIR}/coal/python)
+  add_subdirectory(coal)
 endmacro()
 macro(add_pinocchio)
   list(APPEND PROJECT_PACKAGES_IN_WORKSPACE pinocchio)
@@ -61,7 +61,7 @@ endmacro()
 
 # add_eigenpy()
 
-# add_hpp_fcl()
+# add_coal()
 
 # add_pinocchio()
 
