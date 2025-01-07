@@ -58,6 +58,12 @@ macro(add_loik)
   list(APPEND PROJECT_PACKAGES_IN_WORKSPACE loik)
   add_subdirectory(LoIK)
 endmacro()
+macro(add_simple)
+  list(APPEND PROJECT_PACKAGES_IN_WORKSPACE simple)
+  list(APPEND PROJECT_PYTHON_PACKAGES_IN_WORKSPACE
+       ${PROJECT_BINARY_DIR}/Simple/bindings/python)
+  add_subdirectory(Simple)
+endmacro()
 
 # add_eigenpy()
 
@@ -76,3 +82,5 @@ endmacro()
 # add_aligator()
 
 # add_loik()
+
+# add_simple()
